@@ -1,0 +1,27 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+h1, h2, h3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.signature {
+    font-style: italic;
+}
+
+table {
+    border: 1px solid black;
+}
+
+figure {
+    float: right;
+    margin: 7px 0 7px 7px;
+}

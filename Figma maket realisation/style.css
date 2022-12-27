@@ -1,0 +1,195 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+#wrongElement{
+    display: flex;
+    width: 100%;
+    top: 0;
+    height: 75px;
+    background-color: #007765;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0;
+    background-color: #007765;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#logo{
+    padding: 10px;
+}
+
+.navigation{
+    color: white;
+    text-decoration: none;
+    max-zoom: unset;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#anchors{
+    padding: 15px;
+    font-size: 170%;
+    max-height: 45px;
+}
+
+#first{
+    margin-left: auto;
+    margin-right: auto;
+    background: url(image.svg) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#firstText{
+    color: white;
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+#problem{
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 719px;
+    padding: 55px;
+}
+
+.head{
+    text-align: center;
+    font-size: 64px;
+    color: #007765;
+    font-weight: bold;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.defaultText{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 32px;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+}
+
+#two{
+    margin-left: auto;
+    margin-right: auto;
+    background: url(image12.svg) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 140px;
+    background-size: cover;
+    background-position-x: center;
+}
+
+#twoText{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#coin{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 55px;
+    align-content: center;
+}
+
+#exceptionText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+    max-width: 1219px;
+    font-weight: 300;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#png{
+    width: 115px;
+    height: 115px;
+}
+
+#team{
+    background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 55px;
+    align-items: center;
+}
+
+#teamSection{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teamElement{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.Name{
+    text-align: center;
+    color: #007765;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.role{
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#contitle{
+    background-color: #333333;
+    margin: 0;
+    text-align: center;
+    color: #FFFF;
+    font-weight: 400px;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-color: #00000020;
+    border: 1px;
+}

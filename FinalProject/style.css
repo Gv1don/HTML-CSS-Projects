@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+input{
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+img{
+    border-radius: 2px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.logo{
+    width: 7%;
+    margin-left: 84px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.basket{
+    margin-right: 90px;
+}
+
+.enterButton{
+    align-self: center;
+    margin-left: auto;
+    margin-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 2px;
+    border: 2px solid #E0E0E0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+ 
+.falseBlock{
+    display: flex;
+    height: 80px;
+}
+
+.search{
+    width: 91%;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 90px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto' sans-serif;
+    color: #626262;
+    border-bottom: 2px solid #757575;
+    opacity: 0.5;
+    mix-blend-mode: normal;
+}
+
+.head{
+    margin-top: 60px;
+    padding-right: 90px;
+    padding-left: 82px;
+    width: 100%;
+    color: #1D1D1D;
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 34px;
+}
+
+.restaurants{
+    padding-top: 16px;
+    padding-right: 90px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgba(117, 117, 117, 0.04);
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.card img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardName{
+    font-family: sans-serif;
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 8px;
+}
+
+.cardProp{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(98, 98, 98, 1);
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+.timeDelivery{
+    font-family: sans-serif;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+.contacts{
+    display: flex;
+    background-color: rgba(38, 38, 38, 1);
+    margin-left: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.bottomLogo{
+    margin-top: 56px;
+    margin-left: 80px;
+}
+
+.line{
+    margin-top: 40px;
+    margin-left: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    margin-right: 90px;
+}
+
+.language{
+    margin-top: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 4px;
+    padding-right: 128px;
+    background: rgba(59, 59, 59, 1);
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.firstSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    color: white;
+}
+
+.firstColumn{
+    display: flex;
+    margin-right: 120px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.secondColumn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.lang{
+    display: flex;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contactLink{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.social{
+    width: 50%;
+    margin-left: 7px;
+    margin-top: 30px;
+}
+
+.secondSection{
+    display: flex;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+}
+
+.google{
+    width: 200%
+}
+
+.appstore{
+    margin-right: 40px;
+    width: 200%
+}
+
+.lastSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 168px;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.lastLinks{
+    display: flex;
+    margin-right: 150px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 15px;
+    color: white;
+}

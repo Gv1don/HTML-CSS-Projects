@@ -16,6 +16,16 @@ img{
     border-radius: 2px;
 }
 
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+a :hover{
+    text-decoration: none;
+    color: currentColor;
+}
+
 .header{
     display: flex;
     flex-direction: row;
@@ -27,7 +37,7 @@ img{
 }
 
 .logo{
-    width: 7%;
+    width: 180px;
     margin-left: 84px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -236,22 +246,27 @@ img{
 }
 
 .lastSection{
+    margin-left: 86px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 168px;
-    margin-right: auto;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 .lastLinks{
+    margin-right: 170px;
     display: flex;
-    margin-right: 150px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 15px;
     color: white;
+}
+
+@media screen and (max-width:767px){
+    .basket{
+        display: none;
+    }
 }

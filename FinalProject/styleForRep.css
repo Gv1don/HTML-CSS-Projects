@@ -1,0 +1,356 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --padding-left: 80px;
+    --padding-right: 90px;
+}
+
+input{
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+img{
+    border-radius: 2px;
+}
+
+a{
+    color: currentColor;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+a :hover{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+}
+
+.logo{
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.enterButton{
+    align-self: center;
+    margin-left: auto;
+    margin-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 2px;
+    border: 2px solid #E0E0E0;
+    font-size: 16px;
+    font-weight: 500;
+}
+ 
+.falseBlock{
+    display: flex;
+    height: 80px;
+}
+
+.representation{
+    display: flex;
+    justify-content: start;
+    background: url(representation.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.repCard{
+    display: flex;
+    min-height: 180px;
+    min-width: 308px;
+    max-width: 400px;
+    max-height: 200px;
+    width: 100%;
+    margin-left: var(--padding-left);
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: white;
+    flex-direction: column;
+}
+
+.cardHeaderCont{
+    display: flex;
+    justify-content: center;
+}
+
+.cardHeader{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    width: 100%;
+    margin-top: 38px;
+}
+
+.cardInfoCont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 62px;
+    margin-bottom: 46px;
+}
+
+.cardInfo{
+    display: flex;
+    justify-content: start;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blackButton{
+    background-color: #262626;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.deliveryTime{
+    padding: 8px;
+}
+
+.navigation{
+    display: flex;
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+    border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navigationUnit{
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.snacksHeader{
+    display: flex;
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+    margin-top: 56px;
+    margin-bottom: 32px;
+    margin-left: 10px;
+}
+
+.cardPlace{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+}
+
+.cardContent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(117, 117, 117, 0.1);
+}
+
+.dish{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:50px;
+    justify-content: center;
+}
+
+.dishText{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.dishImage{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100px;
+}
+
+.dishHeader{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dishInfo{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.dishPrice{
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.contacts{
+    display: flex;
+    background-color: rgba(38, 38, 38, 1);
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: var(--padding-left);
+    padding-right: var(--padding-right);
+}
+
+.bottomLogo{
+    margin-top: 56px;
+}
+
+.line{
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.language{
+    margin-top: 32px;
+    padding-top: 12px;
+    padding-right: 90px;
+    padding-bottom: 12px;
+    background: rgba(59, 59, 59, 1);
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    justify-content: start;
+}
+
+.firstSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15px;
+    color: white;
+}
+
+.firstColumn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.secondColumn{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.lang{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contactLink{
+    display: flex;
+    width: 270px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.social{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.secondSection{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.google{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.appstore{
+    margin-bottom: 20px;
+    width: 200px;
+    margin-right: 40px;
+}
+
+.lastSection{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lastLinks{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 15px;
+    color: white;
+}
+
+@media screen and (max-width:767px){
+    .basket{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px){
+    :root{
+    --padding-left: 4px;
+    --padding-right: 4px;
+    }
+}

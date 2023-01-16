@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleForIndex.css">
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
     <head>
     </head>
@@ -16,9 +16,11 @@
         </container>
         <container class="mainContainer">
             <container class="searchContainer">
-                <form> 
-                    <input type="text" name="text" class="search" placeholder="Поиск по ресторанам и кухням">
-                </form>
+                <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                    <form> 
+                        <input type="text" name="text" class="search" placeholder="Поиск по ресторанам и кухням">
+                    </form>
+                </div>
             </container>
             <p class="head" style="font-family: sans-serif">Рестораны в Иваново</p>
             <container class="restaurants">
@@ -124,45 +126,61 @@
                 <p class="line"></p>
             </div>
             <container class="firstSection">
-                <container class="lang">
-                    <div class="col-xs-6 col-md-3 col-lg-3 col-xl-3">
-                        <select class="language">
-                            <option value="1">Русский</option>
-                            <option value="2">Не русский</option>
-                            <option value="3">Другой не русский</option>
-                        </select>
-                    </div>
-                    <img class="social" src="social.svg">
-                </container>
-                <container class="links">
-                    <container class="firstColumn">
-                        <a href="#" class="contactLink">Об UberEats</a>
-                        <a href="#" class="contactLink">Станьте партнёром по доставке</a>
-                        <a href="#" class="contactLink">Станьте партнёром-рестораном</a>
+                <div class="col-xs-12 col-md-12 col-lg-12 col-xl-4">
+                    <container class="lang">
+                        <div class="col-xs-12">
+                            <select class="language">
+                                <option value="1">Русский</option>
+                                <option value="2">Не русский</option>
+                                <option value="3">Другой не русский</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-12">
+                            <img class="social" src="social.svg">
+                        </div>
                     </container>
-                    <container class="secondColumn">
-                        <a href="#" class="contactLink">Все города</a>
-                        <a href="#" class="contactLink">Цены</a>
-                        <a href="#" class="contactLink">Помощь</a>
-                        <a href="#" class="contactLink">FAQs</a>
+                </div>
+                <div class="col-xs-12 col-md-12 col-lg-12 col-xl-8">
+                    <container class="links">
+                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">  
+                            <container class="firstColumn">
+                                <a href="#" class="contactLink">Об UberEats</a>
+                                <a href="#" class="contactLink">Станьте партнёром по доставке</a>
+                                <a href="#" class="contactLink">Станьте партнёром-рестораном</a>
+                            </container>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
+                            <container class="secondColumn">
+                                <a href="#" class="contactLink">Все города</a>      
+                                <a href="#" class="contactLink">Цены</a>                                
+                                <a href="#" class="contactLink">Помощь</a>
+                                <a href="#" class="contactLink">FAQs</a>
+                            </container>
+                        </div>
                     </container>
-                </container>
+                </div>
             </container>
             <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
                 <p class="line"></p>
             </div>
             <container class="secondSection">
-                <img class="appstore" src="123.svg">
-                <img class="google" src="google.svg">
+                <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
+                    <img class="appstore" src="123.svg">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-6 col-xl-6">
+                    <img class="google" src="google.svg">
+                </div>
             </container>
             <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
                 <p class="line"></p>
             </div>
-            <container class="lastSection">
-                <p class="lastLinks">© 2017 Uber Technologies Inc.</p>
-                <a href="#" class="lastLinks">Обработка персональных данных</a>
-                <a href="#" class="lastLinks">Пользовательское соглашение</a>
-            </container>
+            <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
+                <container class="lastSection">
+                    <p class="lastLinks">© 2017 Uber Technologies Inc.</p>
+                    <a href="#" class="lastLinks">Обработка персональных данных</a>
+                    <a href="#" class="lastLinks">Пользовательское соглашение</a>
+                </container>
+            </div>
         </container>
     </body>
 </html>

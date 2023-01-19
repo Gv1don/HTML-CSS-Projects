@@ -253,12 +253,10 @@ a :hover{
 }
 
 .google{
-    width: 200px;
-    margin-bottom: 20px;
+    width: 210px;
 }
 
 .appstore{
-    margin-bottom: 20px;
     width: 200px;
     margin-right: 40px;
 }
@@ -282,9 +280,30 @@ a :hover{
     color: white;
 }
 
-@media screen and (max-width:767px){
+.btn-upp{
+    position: static;
+    margin-top: 20px;
+    width: 60%;
+    height: 60%;
+}
+
+@media screen and (max-width:770px){
     .basket{
         display: none;
+    }
+
+    .nav{
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .navigationUnit{
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .appstore{
+        margin-bottom: 20px;
     }
 }
 
@@ -292,5 +311,42 @@ a :hover{
     :root{
     --padding-left: 4px;
     --padding-right: 4px;
+    }
+
+    .navigation{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    .navigation{
+        justify-content: center;
+    }
+    
+    .nav{
+        width: 100%;
+    }
+
+    .navigationUnit{
+        justify-content: center;
+    }
+
+    .btn-upp{
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .navigationUnit{
+        width: 100%;
+        font-size: 30px;
+        justify-content: start;
+    }
+
+    .navigation{
+        padding-top: 10px;
     }
 }

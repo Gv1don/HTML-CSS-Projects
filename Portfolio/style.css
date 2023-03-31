@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.HeadContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: #2d3236;
+    padding-top: 60px;
+}
+
+.ava{
+    height: 252px; 
+    width: 194px;
+}
+
+.mainImage{
+    justify-content: start;
+    margin-top:20px;
+    margin-left:20px;
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden; 
+    border: solid #444444;
+}
+
+.preview{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.aboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.images-pull{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.text{
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:aliceblue;
+    align-items: center;
+    padding-top: 20px;
+    background: #1e2224;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.projectIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContactCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.ContactCont{
+    margin-right: 25px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
